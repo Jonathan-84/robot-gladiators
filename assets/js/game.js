@@ -48,7 +48,7 @@ if (promptFight === "fight" || promptFight === "FIGHT") {
   } else {
     window.alert("You need to choose a valid option. Try again!");
   }
- if (promptFight === "skip" || promptFight === "SKIP") {
+  if (promptFight === "skip" || promptFight === "SKIP") {
     // confirm player wants to skip
     var confirmSkip = window.confirm("Are you sure you'd like to quit?");
   
